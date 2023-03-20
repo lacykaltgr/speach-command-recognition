@@ -61,3 +61,5 @@ def AttRNNSpeechModel(nCategories, samplingrate=16000,
     model = Model(inputs=[inputs], outputs=[output])
 
     return model
+
+#%%
